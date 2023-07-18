@@ -1,0 +1,2 @@
+[remote]
+44.213.247.155 ansible_user=ubuntu ansible_ssh_private_key_file=./key.pem

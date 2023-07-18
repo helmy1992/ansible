@@ -1,0 +1,11 @@
+- name: install and configure Nginx
+  hosts: remote
+  tasks:
+    - name: install nginx
+      apt:
+        name: nginx
+
+    - name: copy file 
+      copy:
+        src: index.html
+        dest: /var/www/html/
